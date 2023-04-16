@@ -8,6 +8,10 @@ class gitea::database {
         require  => Class['postgresql::server'],
       }
     }
+    'mysql': {
+    }
+    'mariadb':{
+    }
     'sqlite': {
     }
     default: {
