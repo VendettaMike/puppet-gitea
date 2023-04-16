@@ -6,7 +6,7 @@
 [Unit]
 Description=Gitea
 After=network.target
-<% if $database_type != 'sqlite' { %>Requires=<%= $database_type %>.service<% } %>
+#<% if $database_type != 'sqlite' { %>Requires=<%= $database_type %>.service<% } %>
 
 [Service]
 Type=simple
