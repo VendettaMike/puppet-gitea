@@ -33,7 +33,7 @@ class gitea (
   String[1] $app_name,
   String[1] $domain,
   Enum['dev', 'prod'] $run_mode,
-  Enum['postgresql', 'sqlite'] $database_type,
+  Enum['postgresql', 'mysql', 'mariadb', 'sqlite'] $database_type,
   String $database_host,
   String $database_name,
   String $database_user,
