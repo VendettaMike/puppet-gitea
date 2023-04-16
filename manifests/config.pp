@@ -3,6 +3,12 @@ class gitea::config {
     'postgresql': {
       'postgres'
     }
+    'mysql': {
+      'mysql'
+    }
+    'mariadb': {
+      'mariadb'
+    }
     'sqlite': {
       'sqlite3'
     }
