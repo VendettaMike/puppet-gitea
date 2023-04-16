@@ -1,12 +1,12 @@
 {
-  "name": "sebastianrakel-gitea",
-  "version": "0.4.1-rc0",
-  "author": "Sebastian Rakel",
-  "summary": "manage gitea",
+  "name": "vendetta-gitea",
+  "version": "0.0.1",
+  "author": "Vendetta Mike",
+  "summary": "Manage gitea",
   "license": "Apache-2.0",
-  "source": "https://github.com/sebastianrakel/puppet-gitea.git",
-  "project_page": "https://github.com/sebastianrakel/puppet-gitea",
-  "issues_url": "https://github.com/sebastianrakel/puppet-gitea/issues",
+  "source": "https://github.com/VendettaMike/puppet-gitea.git",
+  "project_page": "https://github.com/VendettaMike/puppet-gitea",
+  "issues_url": "https://github.com/VendettaMike/puppet-gitea/issues",
   "dependencies": [
     {
       "name": "puppet/archive",
