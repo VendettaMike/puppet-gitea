@@ -4,7 +4,7 @@ class gitea::database {
       postgresql::server::db { $gitea::database_name:
         user     => $gitea::database_user,
         owner    => $gitea::database_user,
-        password => postgresql_password($gitea::database_user, $gitea::database_password),
+        password => ::postgresql::postgresql_password($gitea::database_user, $gitea::database_password),
         require  => Class['postgresql::server'],
       }
     }

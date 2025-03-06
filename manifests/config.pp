@@ -40,13 +40,15 @@ class gitea::config {
       'DOMAIN'           => $gitea::domain,
       'ROOT_URL'         => $gitea::root_url,
       'LFS_START_SERVER' => $gitea::lfs_enabled,
-      'LFS_CONTENT_PATH' => $gitea::lfs_data_path,
     },
     service => {
       'DISABLE_REGISTRATION' => $gitea::disable_registration,
     },
     security => {
       'DISABLE_GIT_HOOKS' => $gitea::disable_git_hooks,
+    },
+    lfs => {
+      'PATH' => $gitea::lfs_data_path,
     },
   }
 
